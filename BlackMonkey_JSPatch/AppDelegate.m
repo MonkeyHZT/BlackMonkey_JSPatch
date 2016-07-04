@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "HomeController.h"
+#import "JPEngine.h"
+#define JSPatchAPPKey (@"9adfbae595cb1df4")
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //9adfbae595cb1df4
+//    [JPEngine ];
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:[[HomeController alloc] init]];

@@ -17,6 +17,7 @@
 		354D35E11D2A518A00EC2D07 /* HomeController.js in Resources */ = {isa = PBXBuildFile; fileRef = 354D35E01D2A518A00EC2D07 /* HomeController.js */; };
 		354D35E41D2A51A700EC2D07 /* JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E31D2A51A700EC2D07 /* JSManager.m */; };
 		354D35E71D2A58CA00EC2D07 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E61D2A58CA00EC2D07 /* BaseController.m */; };
+		354D35EC1D2A657A00EC2D07 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35EB1D2A657A00EC2D07 /* JSPatch.framework */; };
 		FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		354D35E31D2A51A700EC2D07 /* JSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSManager.m; sourceTree = "<group>"; };
 		354D35E51D2A58CA00EC2D07 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
 		354D35E61D2A58CA00EC2D07 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		354D35EB1D2A657A00EC2D07 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
 		DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMonkey_JSPatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354D35EC1D2A657A00EC2D07 /* JSPatch.framework in Frameworks */,
 				FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +126,7 @@
 		352929711D26515200645E4B /* BlackMonkey_JSPatch */ = {
 			isa = PBXGroup;
 			children = (
+				354D35EA1D2A657A00EC2D07 /* FrameWorks */,
 				352929AC1D2652CF00645E4B /* View */,
 				352929AD1D2652CF00645E4B /* VIewModel */,
 				352929A51D2652CF00645E4B /* Bll */,
@@ -236,6 +240,14 @@
 				354D35E61D2A58CA00EC2D07 /* BaseController.m */,
 			);
 			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		354D35EA1D2A657A00EC2D07 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				354D35EB1D2A657A00EC2D07 /* JSPatch.framework */,
+			);
+			path = FrameWorks;
 			sourceTree = "<group>";
 		};
 		A55DFFCDCB66113C44ED04BF /* Frameworks */ = {
@@ -567,6 +579,10 @@
 			baseConfigurationReference = DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlackMonkey_JSPatch/FrameWorks",
+				);
 				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatch";
@@ -579,6 +595,10 @@
 			baseConfigurationReference = 1A60F29D53FE9494EA0BFF5A /* Pods-BlackMonkey_JSPatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlackMonkey_JSPatch/FrameWorks",
+				);
 				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatch";
