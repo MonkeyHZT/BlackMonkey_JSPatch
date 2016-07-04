@@ -1,1252 +1,677 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0D0C0578359A66C2739470D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DCAD6B50CC3DC608B8EFF88E</string>
-				<string>1A60F29D53FE9494EA0BFF5A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A60F29D53FE9494EA0BFF5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-BlackMonkey_JSPatch.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E1B8FBDDEA9C8E4883143BD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_BlackMonkey_JSPatch.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>24CB96B94BF98A1C36F0901E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>352929661D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>352929711D26515200645E4B</string>
-				<string>3529298B1D26515200645E4B</string>
-				<string>352929961D26515200645E4B</string>
-				<string>352929701D26515200645E4B</string>
-				<string>0D0C0578359A66C2739470D8</string>
-				<string>A55DFFCDCB66113C44ED04BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929671D26515200645E4B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>BlackMonkey</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>3529296E1D26515200645E4B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>352929871D26515200645E4B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>3529296E1D26515200645E4B</string>
-					</dict>
-					<key>352929921D26515200645E4B</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>3529296E1D26515200645E4B</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>3529296A1D26515200645E4B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>352929661D26515200645E4B</string>
-			<key>productRefGroup</key>
-			<string>352929701D26515200645E4B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3529296E1D26515200645E4B</string>
-				<string>352929871D26515200645E4B</string>
-				<string>352929921D26515200645E4B</string>
-			</array>
-		</dict>
-		<key>3529296A1D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3529299A1D26515200645E4B</string>
-				<string>3529299B1D26515200645E4B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3529296B1D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>352929771D26515200645E4B</string>
-				<string>352929B31D26536700645E4B</string>
-				<string>352929741D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3529296C1D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FC2D58B46595FABCE904AF2C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3529296D1D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>352929821D26515200645E4B</string>
-				<string>3529297F1D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3529296E1D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3529299C1D26515200645E4B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B99159D5FE09F20206A70BEC</string>
-				<string>3529296B1D26515200645E4B</string>
-				<string>3529296C1D26515200645E4B</string>
-				<string>3529296D1D26515200645E4B</string>
-				<string>F357E307240332E0D94671C1</string>
-				<string>24CB96B94BF98A1C36F0901E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>BlackMonkey_JSPatch</string>
-			<key>productName</key>
-			<string>BlackMonkey_JSPatch</string>
-			<key>productReference</key>
-			<string>3529296F1D26515200645E4B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>3529296F1D26515200645E4B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatch.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>352929701D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3529296F1D26515200645E4B</string>
-				<string>352929881D26515200645E4B</string>
-				<string>352929931D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929711D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>352929AC1D2652CF00645E4B</string>
-				<string>352929AD1D2652CF00645E4B</string>
-				<string>352929A51D2652CF00645E4B</string>
-				<string>352929A61D2652CF00645E4B</string>
-				<string>352929A71D2652CF00645E4B</string>
-				<string>352929A81D2652CF00645E4B</string>
-				<string>352929A91D2652CF00645E4B</string>
-				<string>352929AA1D2652CF00645E4B</string>
-				<string>352929AB1D2652CF00645E4B</string>
-				<string>352929751D26515200645E4B</string>
-				<string>352929761D26515200645E4B</string>
-				<string>3529297E1D26515200645E4B</string>
-				<string>352929801D26515200645E4B</string>
-				<string>352929831D26515200645E4B</string>
-				<string>352929721D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929721D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>352929731D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929731D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929741D26515200645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>352929731D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>352929751D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929761D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929771D26515200645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>352929761D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3529297E1D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3529297F1D26515200645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3529297E1D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>352929801D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>352929811D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929811D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929821D26515200645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>352929801D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>352929831D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929841D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3529298D1D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>352929851D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>352929861D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>352929871D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3529299F1D26515200645E4B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>352929841D26515200645E4B</string>
-				<string>352929851D26515200645E4B</string>
-				<string>352929861D26515200645E4B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3529298A1D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>BlackMonkey_JSPatchTests</string>
-			<key>productName</key>
-			<string>BlackMonkey_JSPatchTests</string>
-			<key>productReference</key>
-			<string>352929881D26515200645E4B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>352929881D26515200645E4B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatchTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>352929891D26515200645E4B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>352929671D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3529296E1D26515200645E4B</string>
-			<key>remoteInfo</key>
-			<string>BlackMonkey_JSPatch</string>
-		</dict>
-		<key>3529298A1D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3529296E1D26515200645E4B</string>
-			<key>targetProxy</key>
-			<string>352929891D26515200645E4B</string>
-		</dict>
-		<key>3529298B1D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3529298C1D26515200645E4B</string>
-				<string>3529298E1D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatchTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3529298C1D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatchTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3529298D1D26515200645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3529298C1D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3529298E1D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3529298F1D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>352929981D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>352929901D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>352929911D26515200645E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>352929921D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>352929A21D26515200645E4B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3529298F1D26515200645E4B</string>
-				<string>352929901D26515200645E4B</string>
-				<string>352929911D26515200645E4B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>352929951D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>BlackMonkey_JSPatchUITests</string>
-			<key>productName</key>
-			<string>BlackMonkey_JSPatchUITests</string>
-			<key>productReference</key>
-			<string>352929931D26515200645E4B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>352929931D26515200645E4B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatchUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>352929941D26515200645E4B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>352929671D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3529296E1D26515200645E4B</string>
-			<key>remoteInfo</key>
-			<string>BlackMonkey_JSPatch</string>
-		</dict>
-		<key>352929951D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3529296E1D26515200645E4B</string>
-			<key>targetProxy</key>
-			<string>352929941D26515200645E4B</string>
-		</dict>
-		<key>352929961D26515200645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>352929971D26515200645E4B</string>
-				<string>352929991D26515200645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatchUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929971D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BlackMonkey_JSPatchUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929981D26515200645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>352929971D26515200645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>352929991D26515200645E4B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3529299A1D26515200645E4B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3529299B1D26515200645E4B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3529299C1D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3529299D1D26515200645E4B</string>
-				<string>3529299E1D26515200645E4B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3529299D1D26515200645E4B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DCAD6B50CC3DC608B8EFF88E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>BlackMonkey_JSPatch/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.HZT.BlackMonkey-JSPatch</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3529299E1D26515200645E4B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1A60F29D53FE9494EA0BFF5A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>BlackMonkey_JSPatch/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.HZT.BlackMonkey-JSPatch</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3529299F1D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>352929A01D26515200645E4B</string>
-				<string>352929A11D26515200645E4B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>352929A01D26515200645E4B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>BlackMonkey_JSPatchTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.HZT.BlackMonkey-JSPatchTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/BlackMonkey_JSPatch.app/BlackMonkey_JSPatch</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>352929A11D26515200645E4B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>BlackMonkey_JSPatchTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.HZT.BlackMonkey-JSPatchTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/BlackMonkey_JSPatch.app/BlackMonkey_JSPatch</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>352929A21D26515200645E4B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>352929A31D26515200645E4B</string>
-				<string>352929A41D26515200645E4B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>352929A31D26515200645E4B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>BlackMonkey_JSPatchUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.HZT.BlackMonkey-JSPatchUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>BlackMonkey_JSPatch</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>352929A41D26515200645E4B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>BlackMonkey_JSPatchUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.HZT.BlackMonkey-JSPatchUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>BlackMonkey_JSPatch</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>352929A51D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Bll</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929A61D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Common</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929A71D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929A81D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Dal</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929A91D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>JsFile</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929AA1D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929AB1D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Others</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929AC1D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929AD1D2652CF00645E4B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>352929B11D26536700645E4B</string>
-				<string>352929B21D26536700645E4B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>VIewModel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929B11D26536700645E4B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HomeController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929B21D26536700645E4B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HomeController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>352929B31D26536700645E4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>352929B21D26536700645E4B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A55DFFCDCB66113C44ED04BF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1E1B8FBDDEA9C8E4883143BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B99159D5FE09F20206A70BEC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DCAD6B50CC3DC608B8EFF88E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-BlackMonkey_JSPatch.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F357E307240332E0D94671C1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FC2D58B46595FABCE904AF2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E1B8FBDDEA9C8E4883143BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>352929671D26515200645E4B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		352929741D26515200645E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 352929731D26515200645E4B /* main.m */; };
+		352929771D26515200645E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 352929761D26515200645E4B /* AppDelegate.m */; };
+		3529297F1D26515200645E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3529297E1D26515200645E4B /* Assets.xcassets */; };
+		352929821D26515200645E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352929801D26515200645E4B /* LaunchScreen.storyboard */; };
+		3529298D1D26515200645E4B /* BlackMonkey_JSPatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529298C1D26515200645E4B /* BlackMonkey_JSPatchTests.m */; };
+		352929981D26515200645E4B /* BlackMonkey_JSPatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 352929971D26515200645E4B /* BlackMonkey_JSPatchUITests.m */; };
+		352929B31D26536700645E4B /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352929B21D26536700645E4B /* HomeController.m */; };
+		354D35E11D2A518A00EC2D07 /* HomeController.js in Resources */ = {isa = PBXBuildFile; fileRef = 354D35E01D2A518A00EC2D07 /* HomeController.js */; };
+		354D35E41D2A51A700EC2D07 /* JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E31D2A51A700EC2D07 /* JSManager.m */; };
+		354D35E71D2A58CA00EC2D07 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E61D2A58CA00EC2D07 /* BaseController.m */; };
+		FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		352929891D26515200645E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352929671D26515200645E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3529296E1D26515200645E4B;
+			remoteInfo = BlackMonkey_JSPatch;
+		};
+		352929941D26515200645E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352929671D26515200645E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3529296E1D26515200645E4B;
+			remoteInfo = BlackMonkey_JSPatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A60F29D53FE9494EA0BFF5A /* Pods-BlackMonkey_JSPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMonkey_JSPatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.release.xcconfig"; sourceTree = "<group>"; };
+		1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackMonkey_JSPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3529296F1D26515200645E4B /* BlackMonkey_JSPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMonkey_JSPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		352929731D26515200645E4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		352929751D26515200645E4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		352929761D26515200645E4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3529297E1D26515200645E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		352929811D26515200645E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		352929831D26515200645E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352929881D26515200645E4B /* BlackMonkey_JSPatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackMonkey_JSPatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3529298C1D26515200645E4B /* BlackMonkey_JSPatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackMonkey_JSPatchTests.m; sourceTree = "<group>"; };
+		3529298E1D26515200645E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352929931D26515200645E4B /* BlackMonkey_JSPatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackMonkey_JSPatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352929971D26515200645E4B /* BlackMonkey_JSPatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackMonkey_JSPatchUITests.m; sourceTree = "<group>"; };
+		352929991D26515200645E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352929B11D26536700645E4B /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		352929B21D26536700645E4B /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		354D35E01D2A518A00EC2D07 /* HomeController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HomeController.js; sourceTree = "<group>"; };
+		354D35E21D2A51A700EC2D07 /* JSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSManager.h; sourceTree = "<group>"; };
+		354D35E31D2A51A700EC2D07 /* JSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSManager.m; sourceTree = "<group>"; };
+		354D35E51D2A58CA00EC2D07 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		354D35E61D2A58CA00EC2D07 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMonkey_JSPatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3529296C1D26515200645E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352929851D26515200645E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352929901D26515200645E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0C0578359A66C2739470D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */,
+				1A60F29D53FE9494EA0BFF5A /* Pods-BlackMonkey_JSPatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		352929661D26515200645E4B = {
+			isa = PBXGroup;
+			children = (
+				352929711D26515200645E4B /* BlackMonkey_JSPatch */,
+				3529298B1D26515200645E4B /* BlackMonkey_JSPatchTests */,
+				352929961D26515200645E4B /* BlackMonkey_JSPatchUITests */,
+				352929701D26515200645E4B /* Products */,
+				0D0C0578359A66C2739470D8 /* Pods */,
+				A55DFFCDCB66113C44ED04BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		352929701D26515200645E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3529296F1D26515200645E4B /* BlackMonkey_JSPatch.app */,
+				352929881D26515200645E4B /* BlackMonkey_JSPatchTests.xctest */,
+				352929931D26515200645E4B /* BlackMonkey_JSPatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		352929711D26515200645E4B /* BlackMonkey_JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				352929AC1D2652CF00645E4B /* View */,
+				352929AD1D2652CF00645E4B /* VIewModel */,
+				352929A51D2652CF00645E4B /* Bll */,
+				352929A61D2652CF00645E4B /* Common */,
+				352929A71D2652CF00645E4B /* Controller */,
+				352929A81D2652CF00645E4B /* Dal */,
+				352929A91D2652CF00645E4B /* JsFile */,
+				352929AA1D2652CF00645E4B /* Model */,
+				352929AB1D2652CF00645E4B /* Others */,
+				352929751D26515200645E4B /* AppDelegate.h */,
+				352929761D26515200645E4B /* AppDelegate.m */,
+				3529297E1D26515200645E4B /* Assets.xcassets */,
+				352929801D26515200645E4B /* LaunchScreen.storyboard */,
+				352929831D26515200645E4B /* Info.plist */,
+				352929721D26515200645E4B /* Supporting Files */,
+			);
+			path = BlackMonkey_JSPatch;
+			sourceTree = "<group>";
+		};
+		352929721D26515200645E4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				352929731D26515200645E4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3529298B1D26515200645E4B /* BlackMonkey_JSPatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3529298C1D26515200645E4B /* BlackMonkey_JSPatchTests.m */,
+				3529298E1D26515200645E4B /* Info.plist */,
+			);
+			path = BlackMonkey_JSPatchTests;
+			sourceTree = "<group>";
+		};
+		352929961D26515200645E4B /* BlackMonkey_JSPatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				352929971D26515200645E4B /* BlackMonkey_JSPatchUITests.m */,
+				352929991D26515200645E4B /* Info.plist */,
+			);
+			path = BlackMonkey_JSPatchUITests;
+			sourceTree = "<group>";
+		};
+		352929A51D2652CF00645E4B /* Bll */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bll;
+			sourceTree = "<group>";
+		};
+		352929A61D2652CF00645E4B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				354D35E21D2A51A700EC2D07 /* JSManager.h */,
+				354D35E31D2A51A700EC2D07 /* JSManager.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		352929A71D2652CF00645E4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		352929A81D2652CF00645E4B /* Dal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dal;
+			sourceTree = "<group>";
+		};
+		352929A91D2652CF00645E4B /* JsFile */ = {
+			isa = PBXGroup;
+			children = (
+				354D35E01D2A518A00EC2D07 /* HomeController.js */,
+			);
+			path = JsFile;
+			sourceTree = "<group>";
+		};
+		352929AA1D2652CF00645E4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		352929AB1D2652CF00645E4B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		352929AC1D2652CF00645E4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		352929AD1D2652CF00645E4B /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				352929B11D26536700645E4B /* HomeController.h */,
+				352929B21D26536700645E4B /* HomeController.m */,
+				354D35E51D2A58CA00EC2D07 /* BaseController.h */,
+				354D35E61D2A58CA00EC2D07 /* BaseController.m */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		A55DFFCDCB66113C44ED04BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3529296E1D26515200645E4B /* BlackMonkey_JSPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3529299C1D26515200645E4B /* Build configuration list for PBXNativeTarget "BlackMonkey_JSPatch" */;
+			buildPhases = (
+				B99159D5FE09F20206A70BEC /* Check Pods Manifest.lock */,
+				3529296B1D26515200645E4B /* Sources */,
+				3529296C1D26515200645E4B /* Frameworks */,
+				3529296D1D26515200645E4B /* Resources */,
+				F357E307240332E0D94671C1 /* Embed Pods Frameworks */,
+				24CB96B94BF98A1C36F0901E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackMonkey_JSPatch;
+			productName = BlackMonkey_JSPatch;
+			productReference = 3529296F1D26515200645E4B /* BlackMonkey_JSPatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		352929871D26515200645E4B /* BlackMonkey_JSPatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3529299F1D26515200645E4B /* Build configuration list for PBXNativeTarget "BlackMonkey_JSPatchTests" */;
+			buildPhases = (
+				352929841D26515200645E4B /* Sources */,
+				352929851D26515200645E4B /* Frameworks */,
+				352929861D26515200645E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3529298A1D26515200645E4B /* PBXTargetDependency */,
+			);
+			name = BlackMonkey_JSPatchTests;
+			productName = BlackMonkey_JSPatchTests;
+			productReference = 352929881D26515200645E4B /* BlackMonkey_JSPatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		352929921D26515200645E4B /* BlackMonkey_JSPatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 352929A21D26515200645E4B /* Build configuration list for PBXNativeTarget "BlackMonkey_JSPatchUITests" */;
+			buildPhases = (
+				3529298F1D26515200645E4B /* Sources */,
+				352929901D26515200645E4B /* Frameworks */,
+				352929911D26515200645E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				352929951D26515200645E4B /* PBXTargetDependency */,
+			);
+			name = BlackMonkey_JSPatchUITests;
+			productName = BlackMonkey_JSPatchUITests;
+			productReference = 352929931D26515200645E4B /* BlackMonkey_JSPatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		352929671D26515200645E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BlackMonkey;
+				TargetAttributes = {
+					3529296E1D26515200645E4B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					352929871D26515200645E4B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3529296E1D26515200645E4B;
+					};
+					352929921D26515200645E4B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3529296E1D26515200645E4B;
+					};
+				};
+			};
+			buildConfigurationList = 3529296A1D26515200645E4B /* Build configuration list for PBXProject "BlackMonkey_JSPatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 352929661D26515200645E4B;
+			productRefGroup = 352929701D26515200645E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3529296E1D26515200645E4B /* BlackMonkey_JSPatch */,
+				352929871D26515200645E4B /* BlackMonkey_JSPatchTests */,
+				352929921D26515200645E4B /* BlackMonkey_JSPatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3529296D1D26515200645E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352929821D26515200645E4B /* LaunchScreen.storyboard in Resources */,
+				3529297F1D26515200645E4B /* Assets.xcassets in Resources */,
+				354D35E11D2A518A00EC2D07 /* HomeController.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352929861D26515200645E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352929911D26515200645E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24CB96B94BF98A1C36F0901E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99159D5FE09F20206A70BEC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F357E307240332E0D94671C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3529296B1D26515200645E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352929771D26515200645E4B /* AppDelegate.m in Sources */,
+				354D35E71D2A58CA00EC2D07 /* BaseController.m in Sources */,
+				352929B31D26536700645E4B /* HomeController.m in Sources */,
+				354D35E41D2A51A700EC2D07 /* JSManager.m in Sources */,
+				352929741D26515200645E4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		352929841D26515200645E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3529298D1D26515200645E4B /* BlackMonkey_JSPatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3529298F1D26515200645E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352929981D26515200645E4B /* BlackMonkey_JSPatchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3529298A1D26515200645E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3529296E1D26515200645E4B /* BlackMonkey_JSPatch */;
+			targetProxy = 352929891D26515200645E4B /* PBXContainerItemProxy */;
+		};
+		352929951D26515200645E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3529296E1D26515200645E4B /* BlackMonkey_JSPatch */;
+			targetProxy = 352929941D26515200645E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		352929801D26515200645E4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				352929811D26515200645E4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3529299A1D26515200645E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3529299B1D26515200645E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3529299D1D26515200645E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3529299E1D26515200645E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A60F29D53FE9494EA0BFF5A /* Pods-BlackMonkey_JSPatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		352929A01D26515200645E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlackMonkey_JSPatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackMonkey_JSPatch.app/BlackMonkey_JSPatch";
+			};
+			name = Debug;
+		};
+		352929A11D26515200645E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlackMonkey_JSPatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackMonkey_JSPatch.app/BlackMonkey_JSPatch";
+			};
+			name = Release;
+		};
+		352929A31D26515200645E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlackMonkey_JSPatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlackMonkey_JSPatch;
+			};
+			name = Debug;
+		};
+		352929A41D26515200645E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlackMonkey_JSPatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlackMonkey_JSPatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3529296A1D26515200645E4B /* Build configuration list for PBXProject "BlackMonkey_JSPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3529299A1D26515200645E4B /* Debug */,
+				3529299B1D26515200645E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3529299C1D26515200645E4B /* Build configuration list for PBXNativeTarget "BlackMonkey_JSPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3529299D1D26515200645E4B /* Debug */,
+				3529299E1D26515200645E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3529299F1D26515200645E4B /* Build configuration list for PBXNativeTarget "BlackMonkey_JSPatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352929A01D26515200645E4B /* Debug */,
+				352929A11D26515200645E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		352929A21D26515200645E4B /* Build configuration list for PBXNativeTarget "BlackMonkey_JSPatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352929A31D26515200645E4B /* Debug */,
+				352929A41D26515200645E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 352929671D26515200645E4B /* Project object */;
+}
