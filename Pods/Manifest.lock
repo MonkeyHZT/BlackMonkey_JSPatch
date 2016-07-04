@@ -21,9 +21,6 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - HappyDNS (0.3.5)
-  - JSPatch (1.1):
-    - JSPatch/Core (= 1.1)
-  - JSPatch/Core (1.1)
   - Masonry (1.0.1)
   - Qiniu (7.0.20):
     - AFNetworking (~> 2.0)
@@ -34,7 +31,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - JSPatch
   - Masonry
   - Qiniu
   - ReactiveCocoa
@@ -42,7 +38,6 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   HappyDNS: 6f8cf46fa7c0b98a6591fe8ecb2e08d9907a6e8b
-  JSPatch: ade285ad1d8f06146ed6054a39cef87509453299
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   Qiniu: 8958e70c02fb563c8c04d555bb5041441c5f4216
   ReactiveCocoa: 5a42745f11ea236f405bb9ce5e97c5e3b23562dd

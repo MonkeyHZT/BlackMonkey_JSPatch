@@ -5,7 +5,7 @@
 
 target 'BlackMonkey_JSPatch' do
 
-pod 'JSPatch'
+#pod 'JSPatch'
 pod 'ReactiveCocoa'
 pod 'AFNetworking'
 pod 'Masonry'

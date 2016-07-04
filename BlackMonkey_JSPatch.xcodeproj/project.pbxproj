@@ -17,7 +17,9 @@
 		354D35E11D2A518A00EC2D07 /* HomeController.js in Resources */ = {isa = PBXBuildFile; fileRef = 354D35E01D2A518A00EC2D07 /* HomeController.js */; };
 		354D35E41D2A51A700EC2D07 /* JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E31D2A51A700EC2D07 /* JSManager.m */; };
 		354D35E71D2A58CA00EC2D07 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E61D2A58CA00EC2D07 /* BaseController.m */; };
-		354D35EC1D2A657A00EC2D07 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35EB1D2A657A00EC2D07 /* JSPatch.framework */; };
+		354D35ED1D2A686600EC2D07 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35EB1D2A657A00EC2D07 /* JSPatch.framework */; };
+		354D35EF1D2A689D00EC2D07 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35EE1D2A689D00EC2D07 /* libz.tbd */; };
+		354D35F11D2A68A500EC2D07 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35F01D2A68A500EC2D07 /* JavaScriptCore.framework */; };
 		FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		354D35E51D2A58CA00EC2D07 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
 		354D35E61D2A58CA00EC2D07 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 		354D35EB1D2A657A00EC2D07 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
+		354D35EE1D2A689D00EC2D07 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		354D35F01D2A68A500EC2D07 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMonkey_JSPatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354D35EC1D2A657A00EC2D07 /* JSPatch.framework in Frameworks */,
+				354D35F11D2A68A500EC2D07 /* JavaScriptCore.framework in Frameworks */,
+				354D35EF1D2A689D00EC2D07 /* libz.tbd in Frameworks */,
+				354D35ED1D2A686600EC2D07 /* JSPatch.framework in Frameworks */,
 				FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +259,8 @@
 		A55DFFCDCB66113C44ED04BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				354D35F01D2A68A500EC2D07 /* JavaScriptCore.framework */,
+				354D35EE1D2A689D00EC2D07 /* libz.tbd */,
 				1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */,
 			);
 			name = Frameworks;
@@ -584,6 +592,7 @@
 					"$(PROJECT_DIR)/BlackMonkey_JSPatch/FrameWorks",
 				);
 				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -600,6 +609,7 @@
 					"$(PROJECT_DIR)/BlackMonkey_JSPatch/FrameWorks",
 				);
 				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HZT.BlackMonkey-JSPatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,7 +8,8 @@
 
 #import "JSManager.h"
 #import <objc/runtime.h>
-#import "JPEngine.h"
+//#import "JPEngine.h"
+#import <JSPatch/JPEngine.h>
 #define JS_DICTIONARY (@"JsFile")
 
 @implementation JSManager

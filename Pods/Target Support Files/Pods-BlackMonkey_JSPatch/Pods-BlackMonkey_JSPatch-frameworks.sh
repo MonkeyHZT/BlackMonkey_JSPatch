@@ -86,7 +86,6 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-BlackMonkey_JSPatch/AFNetworking.framework"
   install_framework "Pods-BlackMonkey_JSPatch/HappyDNS.framework"
-  install_framework "Pods-BlackMonkey_JSPatch/JSPatch.framework"
   install_framework "Pods-BlackMonkey_JSPatch/Masonry.framework"
   install_framework "Pods-BlackMonkey_JSPatch/Qiniu.framework"
   install_framework "Pods-BlackMonkey_JSPatch/ReactiveCocoa.framework"
@@ -95,7 +94,6 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-BlackMonkey_JSPatch/AFNetworking.framework"
   install_framework "Pods-BlackMonkey_JSPatch/HappyDNS.framework"
-  install_framework "Pods-BlackMonkey_JSPatch/JSPatch.framework"
   install_framework "Pods-BlackMonkey_JSPatch/Masonry.framework"
   install_framework "Pods-BlackMonkey_JSPatch/Qiniu.framework"
   install_framework "Pods-BlackMonkey_JSPatch/ReactiveCocoa.framework"
