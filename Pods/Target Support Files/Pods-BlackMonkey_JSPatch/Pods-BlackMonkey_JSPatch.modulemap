@@ -1,0 +1,6 @@
+framework module Pods_BlackMonkey_JSPatch {
+  umbrella header "Pods-BlackMonkey_JSPatch-umbrella.h"
+
+  export *
+  module * { export * }
+}
