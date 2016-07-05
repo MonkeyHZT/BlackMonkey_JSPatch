@@ -5,12 +5,12 @@
 
 target 'BlackMonkey_JSPatch' do
 
-#pod 'JSPatch'
 pod 'ReactiveCocoa'
 pod 'AFNetworking'
 pod 'Masonry'
-#pod 'SnapKit'
 pod "Qiniu"
+#pod 'JSPatch'
+#pod 'SnapKit'
 
 end
 

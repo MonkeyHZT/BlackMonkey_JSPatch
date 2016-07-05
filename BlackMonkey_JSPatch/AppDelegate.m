@@ -20,12 +20,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //9adfbae595cb1df4
-//    [JPEngine ];
-//    [JSPatch update];
     
+    [JSPatch startWithAppKey:JSPatchAPPKey];
+#ifdef DEBUG
+    [JSPatch setupDevelopment];
+#endif
+    [JSPatch sync];
+//
 //    [JSPatch updateConfigWithAppKey:JSPatchAPPKey];
-    
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:[[HomeController alloc] init]];

@@ -13,13 +13,14 @@
 		352929821D26515200645E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352929801D26515200645E4B /* LaunchScreen.storyboard */; };
 		3529298D1D26515200645E4B /* BlackMonkey_JSPatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529298C1D26515200645E4B /* BlackMonkey_JSPatchTests.m */; };
 		352929981D26515200645E4B /* BlackMonkey_JSPatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 352929971D26515200645E4B /* BlackMonkey_JSPatchUITests.m */; };
-		352929B31D26536700645E4B /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352929B21D26536700645E4B /* HomeController.m */; };
 		354D35E11D2A518A00EC2D07 /* HomeController.js in Resources */ = {isa = PBXBuildFile; fileRef = 354D35E01D2A518A00EC2D07 /* HomeController.js */; };
 		354D35E41D2A51A700EC2D07 /* JSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E31D2A51A700EC2D07 /* JSManager.m */; };
-		354D35E71D2A58CA00EC2D07 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354D35E61D2A58CA00EC2D07 /* BaseController.m */; };
-		354D35ED1D2A686600EC2D07 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35EB1D2A657A00EC2D07 /* JSPatch.framework */; };
-		354D35EF1D2A689D00EC2D07 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35EE1D2A689D00EC2D07 /* libz.tbd */; };
 		354D35F11D2A68A500EC2D07 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D35F01D2A68A500EC2D07 /* JavaScriptCore.framework */; };
+		35DB42F11D2B558C009F487C /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 35DB42F01D2B558C009F487C /* main.js */; };
+		35E9CBB11D2B4739001FA04E /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E9CBB01D2B4739001FA04E /* libz.1.1.3.tbd */; };
+		35E9CBB51D2B4B51001FA04E /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E9CBB41D2B4B51001FA04E /* JSPatch.framework */; };
+		35E9CBBA1D2B4EA6001FA04E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9CBB71D2B4EA6001FA04E /* BaseController.m */; };
+		35E9CBBB1D2B4EA6001FA04E /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E9CBB91D2B4EA6001FA04E /* HomeController.m */; };
 		FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,16 +57,18 @@
 		352929931D26515200645E4B /* BlackMonkey_JSPatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackMonkey_JSPatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		352929971D26515200645E4B /* BlackMonkey_JSPatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackMonkey_JSPatchUITests.m; sourceTree = "<group>"; };
 		352929991D26515200645E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		352929B11D26536700645E4B /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
-		352929B21D26536700645E4B /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		354D35E01D2A518A00EC2D07 /* HomeController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = HomeController.js; sourceTree = "<group>"; };
 		354D35E21D2A51A700EC2D07 /* JSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSManager.h; sourceTree = "<group>"; };
 		354D35E31D2A51A700EC2D07 /* JSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSManager.m; sourceTree = "<group>"; };
-		354D35E51D2A58CA00EC2D07 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
-		354D35E61D2A58CA00EC2D07 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
-		354D35EB1D2A657A00EC2D07 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
 		354D35EE1D2A689D00EC2D07 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		354D35F01D2A68A500EC2D07 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		35DB42F01D2B558C009F487C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		35E9CBB01D2B4739001FA04E /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		35E9CBB41D2B4B51001FA04E /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
+		35E9CBB61D2B4EA6001FA04E /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		35E9CBB71D2B4EA6001FA04E /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		35E9CBB81D2B4EA6001FA04E /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		35E9CBB91D2B4EA6001FA04E /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		DCAD6B50CC3DC608B8EFF88E /* Pods-BlackMonkey_JSPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMonkey_JSPatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackMonkey_JSPatch/Pods-BlackMonkey_JSPatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,9 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E9CBB11D2B4739001FA04E /* libz.1.1.3.tbd in Frameworks */,
 				354D35F11D2A68A500EC2D07 /* JavaScriptCore.framework in Frameworks */,
-				354D35EF1D2A689D00EC2D07 /* libz.tbd in Frameworks */,
-				354D35ED1D2A686600EC2D07 /* JSPatch.framework in Frameworks */,
+				35E9CBB51D2B4B51001FA04E /* JSPatch.framework in Frameworks */,
 				FC2D58B46595FABCE904AF2C /* Pods_BlackMonkey_JSPatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,12 +135,12 @@
 		352929711D26515200645E4B /* BlackMonkey_JSPatch */ = {
 			isa = PBXGroup;
 			children = (
-				354D35EA1D2A657A00EC2D07 /* FrameWorks */,
+				35E9CBB41D2B4B51001FA04E /* JSPatch.framework */,
 				352929AC1D2652CF00645E4B /* View */,
 				352929AD1D2652CF00645E4B /* VIewModel */,
+				352929A71D2652CF00645E4B /* Controller */,
 				352929A51D2652CF00645E4B /* Bll */,
 				352929A61D2652CF00645E4B /* Common */,
-				352929A71D2652CF00645E4B /* Controller */,
 				352929A81D2652CF00645E4B /* Dal */,
 				352929A91D2652CF00645E4B /* JsFile */,
 				352929AA1D2652CF00645E4B /* Model */,
@@ -197,6 +200,10 @@
 		352929A71D2652CF00645E4B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				35E9CBB61D2B4EA6001FA04E /* BaseController.h */,
+				35E9CBB71D2B4EA6001FA04E /* BaseController.m */,
+				35E9CBB81D2B4EA6001FA04E /* HomeController.h */,
+				35E9CBB91D2B4EA6001FA04E /* HomeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				354D35E01D2A518A00EC2D07 /* HomeController.js */,
+				35DB42F01D2B558C009F487C /* main.js */,
 			);
 			path = JsFile;
 			sourceTree = "<group>";
@@ -240,25 +248,14 @@
 		352929AD1D2652CF00645E4B /* VIewModel */ = {
 			isa = PBXGroup;
 			children = (
-				352929B11D26536700645E4B /* HomeController.h */,
-				352929B21D26536700645E4B /* HomeController.m */,
-				354D35E51D2A58CA00EC2D07 /* BaseController.h */,
-				354D35E61D2A58CA00EC2D07 /* BaseController.m */,
 			);
 			path = VIewModel;
-			sourceTree = "<group>";
-		};
-		354D35EA1D2A657A00EC2D07 /* FrameWorks */ = {
-			isa = PBXGroup;
-			children = (
-				354D35EB1D2A657A00EC2D07 /* JSPatch.framework */,
-			);
-			path = FrameWorks;
 			sourceTree = "<group>";
 		};
 		A55DFFCDCB66113C44ED04BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35E9CBB01D2B4739001FA04E /* libz.1.1.3.tbd */,
 				354D35F01D2A68A500EC2D07 /* JavaScriptCore.framework */,
 				354D35EE1D2A689D00EC2D07 /* libz.tbd */,
 				1E1B8FBDDEA9C8E4883143BD /* Pods_BlackMonkey_JSPatch.framework */,
@@ -375,6 +372,7 @@
 				352929821D26515200645E4B /* LaunchScreen.storyboard in Resources */,
 				3529297F1D26515200645E4B /* Assets.xcassets in Resources */,
 				354D35E11D2A518A00EC2D07 /* HomeController.js in Resources */,
+				35DB42F11D2B558C009F487C /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,9 +446,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				352929771D26515200645E4B /* AppDelegate.m in Sources */,
-				354D35E71D2A58CA00EC2D07 /* BaseController.m in Sources */,
-				352929B31D26536700645E4B /* HomeController.m in Sources */,
 				354D35E41D2A51A700EC2D07 /* JSManager.m in Sources */,
+				35E9CBBA1D2B4EA6001FA04E /* BaseController.m in Sources */,
+				35E9CBBB1D2B4EA6001FA04E /* HomeController.m in Sources */,
 				352929741D26515200645E4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,6 +588,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BlackMonkey_JSPatch/FrameWorks",
+					"$(PROJECT_DIR)/BlackMonkey_JSPatch",
 				);
 				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -607,6 +606,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BlackMonkey_JSPatch/FrameWorks",
+					"$(PROJECT_DIR)/BlackMonkey_JSPatch",
 				);
 				INFOPLIST_FILE = BlackMonkey_JSPatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

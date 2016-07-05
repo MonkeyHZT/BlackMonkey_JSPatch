@@ -24,11 +24,14 @@
 
 
 -(void)loadJsFile{
-    [JSManager loadJsCodeWithClass:[self class]];
+//    [JSManager loadJsCodeWithClass:[self class]];
 }
 
 -(void)initViewsFromJsFile{
     self.navigationItem.title =[[NSString alloc] initWithUTF8String:class_getName([self class])];
+}
+-(void)logWithStr:(NSString *)str{
+    NSLog(@"%@",str);
 }
 
 @end
