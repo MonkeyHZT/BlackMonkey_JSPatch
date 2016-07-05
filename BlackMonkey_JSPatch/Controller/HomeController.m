@@ -19,5 +19,11 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor redColor]];
 }
+-(void)initViewsFromJsFile{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    view.backgroundColor = [UIColor blueColor];
+    view.center = self.view.center;
+    [self.view addSubview:view];
+}
 
 @end
